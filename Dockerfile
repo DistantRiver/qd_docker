@@ -12,4 +12,4 @@ RUN wget --quiet https://repo.anaconda.com/miniconda/Miniconda-latest-Linux-x86_
     echo ". /opt/conda/etc/profile.d/conda.sh" >> ~/.bashrc && \
     echo "source activate base" >> ~/.bashrc
     
-RUN conda update conda -n base && conda env update -f conda.yml -n base
+RUN conda update conda -n root && conda env update -f conda.yml -n base
