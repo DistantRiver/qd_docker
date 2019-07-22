@@ -4,24 +4,32 @@ channels:
   - conda-forge
   - defaults
 dependencies:
+  - ca-certificates=2019.6.16=hecc5488_0
+  - certifi=2019.6.16=py37_1
   - cloudpickle=1.2.1=py_0
   - cytoolz=0.10.0=py37h516909a_0
   - dask-core=2.1.0=py_0
   - decorator=4.4.0=py_0
+  - ffmpeg=4.0.2=ha0c5888_2
+  - gmp=6.1.2=hf484d3e_1000
+  - gnutls=3.5.19=h2a4e5f8_1
   - imageio=2.5.0=py37_0
+  - libiconv=1.15=h516909a_1005
   - matplotlib-base=3.1.1=py37hfd891ef_0
+  - nettle=3.3=0
   - networkx=2.3=py_0
+  - openh264=1.8.0=hdbcaa40_1000
+  - openssl=1.1.1c=h516909a_0
   - pywavelets=1.0.3=py37hd352d35_1
   - scikit-image=0.15.0=py37hb3f55d8_2
   - tk=8.6.9=hed695b0_1002
   - toolz=0.10.0=py_0
+  - x264=1!152.20180806=h14c3975_0
   - _libgcc_mutex=0.1=main
   - asn1crypto=0.24.0=py37_0
   - blas=1.0=mkl
   - bzip2=1.0.7=h7b6447c_0
-  - ca-certificates=2019.5.15=0
   - cairo=1.14.12=h8948797_3
-  - certifi=2019.6.16=py37_0
   - cffi=1.12.3=py37h2e261b9_0
   - chardet=3.0.4=py37_1
   - click=7.0=py37_0
@@ -30,7 +38,6 @@ dependencies:
   - cycler=0.10.0=py37_0
   - dbus=1.13.6=h746ee38_0
   - expat=2.2.6=he6710b0_0
-  - ffmpeg=4.0=hcdf2ecd_0
   - flask=1.0.3=py37_0
   - fontconfig=2.13.0=h9420a91_0
   - freeglut=3.0.0=hf484d3e_5
@@ -74,7 +81,6 @@ dependencies:
   - numpy-base=1.16.4=py37hde5b4d6_0
   - olefile=0.46=py37_0
   - opencv=3.4.2=py37h6fd60c2_1
-  - openssl=1.1.1c=h7b6447c_1
   - pcre=8.43=he6710b0_0
   - pillow=6.0.0=py37h34e0f95_0
   - pip=19.1.1=py37_0
