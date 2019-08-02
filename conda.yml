@@ -117,6 +117,7 @@ dependencies:
   - pip:
     - dask==2.1.0
     - easydict==1.9
+    - nvidia-ml-py==10.418.84
     - torch==1.1.0
 prefix: /home/sxfd91307/.conda/envs/pt
 
